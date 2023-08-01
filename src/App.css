@@ -1,0 +1,25 @@
+
+.viewbg{
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow:	overflow-x overflow-y;
+    
+}
+
+
+.img1{
+  background-image: url(/src/img/img1.jpg)
+}
+
+.img2{
+    background-image: url(/src/img/img2.jpg);
+}
+
+.img3{
+    background-image: url(/src/img/img3.jpg);
+}
+
+.img4{
+    background-image: url(/src/img/img4.jpg)
+}
