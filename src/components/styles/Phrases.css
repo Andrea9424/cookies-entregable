@@ -1,50 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Lato:wght@300;400;700&display=swap');
 
-.container{
+
+.container {
     display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+
+    min-height: 90vh;
     place-items: center;
     width: min(100%, 320px);
-    padding: 10px 10px;
+    padding: 10px 5px;
     margin: 0 auto;
 }
 
-h1{
+h1 {
     padding-top: 70px;
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     font-size: 2rem;
 }
 
 
-article{
+article {
+    margin-bottom: 10px;
     background-color: aliceblue;
     padding: 10px;
     border-radius: 40px 0px 33px 0px;
-    font-family:sans-serif; 
+    font-family: 'Fredoka';
     box-shadow: 5px 3px 5px;
-   
+
+
 
 }
 
 
-.container1{
- text-align: center;
+.container1 {
+    text-align: center;
 }
 
-button{
+button {
     margin-top: 15px;
     border-radius: 5px;
-    font-family: sans-serif;
+    font-family: 'Fredoka';
     cursor: pointer;
     border: none;
     padding: 7px;
 }
 
-footer{
+footer {
     background-color: aliceblue;
     padding: 10px;
     border-radius: 5px;
-    font-family: sans-serif;
+    font-family: 'Fredoka';
 }
-
-
